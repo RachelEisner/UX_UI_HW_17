@@ -1,21 +1,29 @@
 .inline-block {
     display: inline-block;
     vertical-align: top;
-    width: 50%;
-    margin-left: auto;
+    padding: 1%;
+    display: flex;
+    flex-flow: row;
+    align-items: flex-end;
+    color: black;
+    margin-top: 0%;
+    height: 50px;
+
 }
 .logo {
     width: 23%;
-    padding: 1%;
-    text-align: center;
+    padding: 0%;
+    text-align: left;
 }
-.navigation {
+.navLink {
     width: 73%;
-    padding: 1%;
+    padding: 5%;
+    height: 40px;
 }
-ul {
-    width: 50%;
-    margin-left: auto;
+.rnavLink {
+    width: 25%;
+    padding: 5%;
+    height: 40px;
 }
 .heroimg {
     height: 600px;
@@ -24,13 +32,36 @@ ul {
 .content {
     width: 500px;
     margin: 0 auto;
+    text-align: center;
 }
 footer {
-    background-color: #373738;
+    background-color: transparent;
     padding: 25px;
+    display: inline-block;
+    vertical-align: bottom;
+    display: flex;
+    flex-flow: row;
+    align-items: flex-end;
+    color: black;
+    margin-bottom: 1%;
+    height: 100px;
+}
+.footerLink {
+    width: 50%;
+    padding: 5%;
+    height: 40px;
 }
 ul {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: bottom;
     padding: 25px;
+    display: flex;
+    flex-flow: row;
+    align-items: flex-end;
+    color: black;
+    margin-top: 0%;
+    height: 50px;
+    width: 50%;
+    margin-left: auto;
+    list-style-type:none;
 }
