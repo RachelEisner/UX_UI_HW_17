@@ -63,6 +63,7 @@ footer {
     flex-flow: row;
     align-items: flex-end;
     height: 100px;
+    padding: 0%
 }
 .footerLink {
     width: 50%;
