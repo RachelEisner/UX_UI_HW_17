@@ -75,6 +75,28 @@ footer {
     float: right;
     text-align: end;
 }
+.leftFooter{
+    background-color: transparent;
+    display: inline-block;
+    vertical-align: bottom;
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+    height: 100px;
+}
+.rightFooter{
+    background-color: transparent;
+    display: inline-block;
+    vertical-align: bottom;
+    display: flex;
+    flex-flow: row;
+    align-items: flex-end;
+    height: 100px;
+    padding: 0%
+}
+#rightFooter{
+    align-items: flex-end
+}
 .footerLink {
     padding: 5%;
 }
